@@ -1,0 +1,136 @@
+Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = So 10. október 2015, 12:41:24 CEST
+
+BeginCmp
+TimeStamp = /5612632E;
+Reference = C1;
+ValeurCmp = 10uF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /56126708;
+Reference = K1;
+ValeurCmp = CONN_3;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56126537;
+Reference = K2;
+ValeurCmp = CONN_3;
+IdModule  = mstba_2,5/3-g-5,08;
+EndCmp
+
+BeginCmp
+TimeStamp = /561262A9;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5614C4E8;
+Reference = P2;
+ValeurCmp = CONN_4;
+IdModule  = PIN_ARRAY_5x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5614C7A3;
+Reference = P3;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /5614CB31;
+Reference = P4;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /5612650C;
+Reference = Q1;
+ValeurCmp = MOS_N;
+IdModule  = SOT23GDS;
+EndCmp
+
+BeginCmp
+TimeStamp = /56126507;
+Reference = Q2;
+ValeurCmp = MOS_N;
+IdModule  = SOT23GDS;
+EndCmp
+
+BeginCmp
+TimeStamp = /5614CAC0;
+Reference = R1;
+ValeurCmp = 15K;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /561263BD;
+Reference = R2;
+ValeurCmp = 15K;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /56126452;
+Reference = R3;
+ValeurCmp = 15K;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5612657F;
+Reference = R5;
+ValeurCmp = 100R;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /56126579;
+Reference = R6;
+ValeurCmp = 100R;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /56126720;
+Reference = R7;
+ValeurCmp = 43R;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /56126723;
+Reference = R8;
+ValeurCmp = 33R;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5614CB27;
+Reference = SW1;
+ValeurCmp = SW_PUSH;
+IdModule  = SW_PUSH_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /56126622;
+Reference = SW2;
+ValeurCmp = SW_PUSH;
+IdModule  = SW_PUSH_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /56126064;
+Reference = U1;
+ValeurCmp = ESP8266-ESP-03;
+IdModule  = ESP8266-ESP03;
+EndCmp
+
+EndListe
