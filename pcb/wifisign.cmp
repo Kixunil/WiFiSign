@@ -1,10 +1,17 @@
-Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = So 10. október 2015, 12:41:24 CEST
+Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Po 12. október 2015, 13:07:45 CEST
 
 BeginCmp
 TimeStamp = /5612632E;
 Reference = C1;
 ValeurCmp = 10uF;
 IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /561B942B;
+Reference = JP1;
+ValeurCmp = JUMPER;
+IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
@@ -33,13 +40,6 @@ TimeStamp = /5614C4E8;
 Reference = P2;
 ValeurCmp = CONN_4;
 IdModule  = PIN_ARRAY_5x1;
-EndCmp
-
-BeginCmp
-TimeStamp = /5614C7A3;
-Reference = P3;
-ValeurCmp = CONN_1;
-IdModule  = 1pin;
 EndCmp
 
 BeginCmp
