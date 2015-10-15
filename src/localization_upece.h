@@ -1,0 +1,7 @@
+#define TITLE         "Majofis"
+#define GREEN_STATE   "Poď"
+#define RED_STATE     "Čakaj"
+#define SWITCH_TO     "Prepni na"
+#define SHUTDOWN      "Vypnúť"
+#define TURNED_OFF    "Zariadenie vypnuté"
+#define CURRENT_STATE "Teraz svieti:"

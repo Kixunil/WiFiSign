@@ -1,0 +1,7 @@
+#define TITLE         "WiFi sign"
+#define GREEN_STATE   "Green"
+#define RED_STATE     "Red"
+#define SWITCH_TO     "Switch to"
+#define SHUTDOWN      "Turn off"
+#define TURNED_OFF    "Device is turned off"
+#define CURRENT_STATE "Currently there is:"
