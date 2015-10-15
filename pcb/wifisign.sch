@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Po 12. október 2015, 13:07:20 CEST
+EESchema Schematic File Version 2  date Št 15. október 2015, 10:42:44 CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "12 oct 2015"
+Date "15 oct 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,6 +45,11 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 7000 2550
+Wire Wire Line
+	7000 2300 7000 3050
+Wire Wire Line
+	7000 3050 7200 3050
 Wire Wire Line
 	1950 2900 1950 3000
 Wire Wire Line
@@ -114,8 +119,6 @@ Wire Wire Line
 Wire Wire Line
 	5600 3350 5600 3500
 Wire Wire Line
-	7200 3050 7200 3200
-Wire Wire Line
 	7850 4000 7850 4150
 Wire Wire Line
 	4850 3650 5800 3650
@@ -125,8 +128,6 @@ Wire Wire Line
 	7000 3650 7000 3800
 Wire Wire Line
 	5650 4200 5650 4050
-Wire Wire Line
-	6600 2500 6600 2600
 Wire Wire Line
 	6700 3100 6700 3300
 Wire Wire Line
@@ -153,6 +154,19 @@ Wire Wire Line
 	2100 3500 3700 3500
 Wire Wire Line
 	4900 2900 2550 2900
+Wire Wire Line
+	6600 2500 6600 2550
+Wire Wire Line
+	6600 2550 7000 2550
+$Comp
+L +3.3V #PWR?
+U 1 1 561F66DF
+P 7000 2300
+F 0 "#PWR?" H 7000 2260 30  0001 C CNN
+F 1 "+3.3V" H 7000 2410 30  0000 C CNN
+	1    7000 2300
+	1    0    0    -1  
+$EndComp
 $Comp
 L GND #PWR01
 U 1 1 561B943B
@@ -215,15 +229,6 @@ F 0 "P2" V 1700 3550 50  0000 C CNN
 F 1 "CONN_4" V 1800 3550 50  0000 C CNN
 	1    1750 3550
 	-1   0    0    1   
-$EndComp
-$Comp
-L GND #PWR03
-U 1 1 5612672C
-P 6600 2600
-F 0 "#PWR03" H 6600 2600 30  0001 C CNN
-F 1 "GND" H 6600 2530 30  0001 C CNN
-	1    6600 2600
-	1    0    0    -1  
 $EndComp
 $Comp
 L R R8
@@ -304,15 +309,6 @@ P 7300 4150
 F 0 "#PWR06" H 7300 4150 30  0001 C CNN
 F 1 "GND" H 7300 4080 30  0001 C CNN
 	1    7300 4150
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR07
-U 1 1 56126554
-P 7200 3200
-F 0 "#PWR07" H 7200 3200 30  0001 C CNN
-F 1 "GND" H 7200 3130 30  0001 C CNN
-	1    7200 3200
 	1    0    0    -1  
 $EndComp
 $Comp
